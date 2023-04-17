@@ -1,0 +1,35 @@
+.balanceList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #7e858e;
+  padding: 5px;
+  margin: 0px;
+  width: 100%;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteImg {
+  height: 20px;
+  margin: 10px;
+}
+.hisTitle {
+  width: 30%;
+  padding-right: 5px;
+}
+.hisAmount {
+  width: 30%;
+  padding-right: 5px;
+}
+.hisType {
+  width: 40%;
+  padding-right: 5px;
+}

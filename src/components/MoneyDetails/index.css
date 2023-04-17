@@ -1,0 +1,74 @@
+.moneyCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 576px) {
+  .moneyCon {
+    flex-direction: column;
+  }
+}
+
+.list1 {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  padding: 10px;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.image {
+  height: 70px;
+  margin: 10px;
+}
+
+.list2 {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  padding: 10px;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.list3 {
+  padding: 10px;
+  margin: 20px;
+  list-style-type: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.Para {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.Money {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.balance {
+  margin-left: 20px;
+  margin-right: 20px;
+}
